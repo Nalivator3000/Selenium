@@ -24,12 +24,12 @@ except:
     time.sleep(3)
 
     form_xpath = '/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input'
-    browser.find_element('xpath', form_xpath).send_keys('ihippi4@gmail.com')
+    browser.find_element('xpath', form_xpath).send_keys('email')
 
     time.sleep(3)
 
     form_id = 'pass'
-    browser.find_element('id', form_id).send_keys('Fib112358132134')
+    browser.find_element('id', form_id).send_keys('password')
 
     time.sleep(3)
 
